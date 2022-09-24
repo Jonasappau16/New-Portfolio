@@ -289,6 +289,7 @@ label {
   position: absolute;
   bottom: 8px;
   left: calc(100% + 14px);
+  cursor: pointer;
 }
 .section-title h3::before {
   background-color: #1e2530;
@@ -569,9 +570,11 @@ label {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 30px;
   position: relative;
+  cursor: pointer;
 }
 .works-item img {
   width: 100%;
+  height: auto;
 }
 .works-item .overlay {
   background-color: rgba(30, 37, 48, 0.96);
@@ -605,6 +608,7 @@ label {
   color: #fa6862;
   font-weight: 700;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .works-item p {
   color: #fff;
@@ -613,6 +617,7 @@ label {
 }
 .works-item:hover .overlay {
   transform: scale(1);
+  cursor: pointer;
 }
 .works-item:hover .works-inner {
   transform: translate(-50%, -50%) scale(1);
